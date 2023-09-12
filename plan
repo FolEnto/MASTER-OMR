@@ -1,0 +1,14 @@
+1. Détection du texte dans une partition
+2. Répérer les zones de textes "intéressantes"
+3. Détecter le nombre de pages
+4. Génération de l'index
+5. Extraction des informations
+
+---- Détection de la musique ----
+1. Zones de musique
+2. Mesures
+3. Altérations
+4. Hauteur des notes
+5. Musique XML ?
+6. Différentes polices, manuscrit ?
+7. Machine learning ?

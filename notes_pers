@@ -1,0 +1,48 @@
+Ok for next semester
+
+-> Need to ask for the master's thesis to have a precise date
+
+Score sources :
+
+https://www.free-scores.com/
+https://imslp.org/
+Scanned score from La Cordiale and OHF
+My friend Bruno who has pdf and musicXML corresponding to it.
+
+find musicXML and generate pdf -> 
+
+Comparaison d'image
+Comparaison de music
+Nombre de pixel
+
+
+How to select the initial dataset ? How many scores should I pre-process ? 
+
+~ hundreds
+
+
+
+05.07.2023
+
+
+Next things to do :
+
+MusicXML generator -> Baseline OCR system -> errors -> evaluation metrics with public poll
+
+1. Errors in image -> find the error in musicXML -> label the type of error
+2. Errors in image -> train something to recognise the error 
+
+
+
+
+
+Python mingus -> Generate music score (can be randomized)
+TODO : Generate original MusicXML
+
+Go through Audiveris (OMR)
+
+Compare with source musicXML
+
+TODO : ERROR DETECTION
+TODO : PUBLIC POLL
+
