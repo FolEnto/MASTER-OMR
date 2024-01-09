@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="3.1">
+  <work>
+    <work-title>Musich Fragment</work-title>
+  </work>
+  <movement-title>2023_11_22_14_39_55_TEST.mxl</movement-title>
+  <identification>
+    <creator type="composer">score2          Music21</creator>
+    <encoding>
+      <encoding-date>2023-11-22</encoding-date>
+      <software>music21 v.8.3.0</software>
+      <software>Audiveris 5.3.1</software>
+      <software>ProxyMusic 4.0.2</software>
+      <supports attribute="new-system" element="print" type="yes" value="yes" />
+      <supports attribute="new-page" element="print" type="yes" value="yes" />
+    </encoding>
+    <miscellaneous>
+      <miscellaneous-field name="source-file">/home/jerome/Documents/MASTER/MASTER-OMR/Code/generated/pdf/2023_11_22_14_39_55_TEST.pdf</miscellaneous-field>
+      <miscellaneous-field name="source-sheet-1">1 2</miscellaneous-field>
+    </miscellaneous>
+  </identification>
+  <defaults>
+    <scaling>
+      <millimeters>7.112</millimeters>
+      <tenths>40</tenths>
+    </scaling>
+    <page-layout>
+      <page-height>1670</page-height>
+      <page-width>1180</page-width>
+      <page-margins>
+        <left-margin>80</left-margin>
+        <right-margin>80</right-margin>
+        <top-margin>80</top-margin>
+        <bottom-margin>80</bottom-margin>
+      </page-margins>
+    </page-layout>
+    <lyric-font font-family="Sans Serif" font-size="10" />
+  </defaults>
+  <credit page="1">
+    <credit-words default-x="412" default-y="1582" font-family="serif" font-size="20">Musich Fragment</credit-words>
+  </credit>
+  <credit page="1">
+    <credit-words default-x="1045" default-y="1516" font-family="serif" font-size="10">Music21</credit-words>
+  </credit>
+  <part-list>
+    <score-part id="P1">
+      <part-name>Voice</part-name>
+      <part-abbreviation>Voice</part-abbreviation>
+      <score-instrument id="Id3c98a0ce6677bbd0e26801f09f4a826">
+        <instrument-name>Voice Oohs</instrument-name>
+        <instrument-abbreviation>V</instrument-abbreviation>
+      </score-instrument>
+      <midi-instrument id="Id3c98a0ce6677bbd0e26801f09f4a826">
+        <midi-channel>1</midi-channel>
+        <midi-program>54</midi-program>
+      </midi-instrument>
+    </score-part>
+  </part-list>
+  <!--=========================== Part 1 ===========================-->
+  <part id="P1">
+    <!--========================= Measure 1 ==========================-->
+    <measure number="1" width="1068">
+      <print>
+        <system-layout>
+          <system-margins>
+            <left-margin>-24</left-margin>
+            <right-margin>-24</right-margin>
+          </system-margins>
+          <top-system-distance>144</top-system-distance>
+        </system-layout>
+        <staff-layout />
+        <measure-numbering>system</measure-numbering>
+      </print>
+      <attributes>
+        <divisions>10080</divisions>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+        <staff-details print-object="yes" />
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <words />
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#008000" enclosure="none">inserted TextExpression</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#008000" enclosure="none">inserted TrebleClef</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="69">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <stem default-y="12">up</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam color="#0000FF" number="1">begin</beam>
+        <beam color="#0000FF" number="2">forward hook</beam>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="90">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem default-y="12">up</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam color="#0000FF" number="1">continue</beam>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="124">
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <type>eighth</type>
+        <dot />
+        <accidental>natural</accidental>
+        <stem default-y="12">up</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam color="#0000FF" number="1">end</beam>
+      </note>
+      <note default-x="165">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem default-y="-9">up</stem>
+      </note>
+      <note default-x="225">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <accidental>flat</accidental>
+        <stem default-y="8">up</stem>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted accidental</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" default-x="292">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <tie type="start" />
+        <type>quarter</type>
+        <stem default-y="-15">up</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notations>
+          <tied orientation="under" placement="below" type="start" />
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">decreased flags</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">decreased flags</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" default-x="339">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <tie type="stop" />
+        <type>quarter</type>
+        <stem default-y="-15">up</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notations>
+          <tied type="stop" />
+        </notations>
+      </note>
+      <note default-x="367">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem default-y="-14">up</stem>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">decreased flags</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">decreased flags</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" default-x="412">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted accidental</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" default-x="485">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <tie type="start" />
+        <type>quarter</type>
+        <stem default-y="-14">up</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notations>
+          <tied orientation="under" placement="below" type="start" />
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="531">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <tie type="stop" />
+        <type>16th</type>
+        <stem default-y="3">up</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam color="#0000FF" number="1">begin</beam>
+        <beam color="#0000FF" number="2">begin</beam>
+        <notations>
+          <tied type="stop" />
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted accidental</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="552">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <type>16th</type>
+        <stem default-y="10">up</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam color="#0000FF" number="1">end</beam>
+        <beam color="#0000FF" number="2">end</beam>
+      </note>
+      <note default-x="574">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>15120</duration>
+        <type>quarter</type>
+        <dot />
+        <stem default-y="-14">up</stem>
+      </note>
+      <note default-x="628">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <accidental>sharp</accidental>
+        <stem default-y="0">up</stem>
+      </note>
+      <note default-x="661">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>15120</duration>
+        <type>quarter</type>
+        <dot />
+        <stem default-y="-51">down</stem>
+      </note>
+      <note default-x="715">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem default-y="4">up</stem>
+      </note>
+      <note default-x="762">
+        <rest />
+        <duration>7560</duration>
+        <type>eighth</type>
+        <dot />
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted accidental</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="803">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <type>eighth</type>
+        <dot />
+        <stem default-y="0">up</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam color="#0000FF" number="1">begin</beam>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="845">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <type>16th</type>
+        <stem default-y="3">up</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam color="#0000FF" number="1">end</beam>
+        <beam color="#0000FF" number="2">backward hook</beam>
+      </note>
+      <note default-x="866">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>15120</duration>
+        <type>quarter</type>
+        <dot />
+        <stem default-y="4">up</stem>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted accidental</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="920">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem default-y="3">up</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam color="#0000FF" number="1">begin</beam>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="954">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <type>eighth</type>
+        <dot />
+        <accidental>flat</accidental>
+        <stem default-y="13">up</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam color="#0000FF" number="1">end</beam>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted accidental</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" default-x="992">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>40320</duration>
+        <type>whole</type>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+      </note>
+    </measure>
+    <!--========================= Measure 2 ==========================-->
+    <measure number="2" width="297">
+      <print new-system="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>-24</left-margin>
+            <right-margin>-24</right-margin>
+          </system-margins>
+          <system-distance>148</system-distance>
+        </system-layout>
+        <staff-layout />
+      </print>
+      <attributes>
+        <staff-details print-object="yes" />
+      </attributes>
+      <direction>
+        <direction-type>
+          <words color="#008000" enclosure="none">inserted accidental</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted tie</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" default-x="69">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <accidental color="#008000">flat</accidental>
+        <stem default-y="8">up</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+      </note>
+      <note default-x="107">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <tie type="start" />
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <stem default-y="-5">up</stem>
+        <notations>
+          <tied orientation="under" placement="below" type="start" />
+        </notations>
+      </note>
+      <note default-x="140">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <tie type="stop" />
+        <type>16th</type>
+        <stem default-y="-4">up</stem>
+        <notations>
+          <tied type="stop" />
+        </notations>
+      </note>
+      <note default-x="165">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem default-y="-4">up</stem>
+      </note>
+      <note default-x="199">
+        <pitch>
+          <step>A</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <tie type="start" />
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <stem default-y="8">up</stem>
+        <notations>
+          <tied orientation="under" placement="below" type="start" />
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="232">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <tie type="stop" />
+        <type>16th</type>
+        <stem default-y="10">up</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam color="#0000FF" number="1">begin</beam>
+        <beam color="#0000FF" number="2">begin</beam>
+        <notations>
+          <tied type="stop" />
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="259">
+        <pitch>
+          <step>F</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <type>16th</type>
+        <accidental>natural</accidental>
+        <stem default-y="4">up</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam color="#0000FF" number="1">continue</beam>
+        <beam color="#0000FF" number="2">continue</beam>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted accidental</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="274">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <type>16th</type>
+        <stem default-y="0">up</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam color="#0000FF" number="1">end</beam>
+        <beam color="#0000FF" number="2">end</beam>
+      </note>
+    </measure>
+    <!--========================= Measure 3 ==========================-->
+    <measure number="3" width="279">
+      <note default-x="11">
+        <rest />
+        <duration>15120</duration>
+        <type>quarter</type>
+        <dot />
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="48">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <type>16th</type>
+        <stem default-y="2">up</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam color="#0000FF" number="1">begin</beam>
+        <beam color="#0000FF" number="2">begin</beam>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="76">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <stem default-y="12">up</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam color="#0000FF" number="1">end</beam>
+        <beam color="#0000FF" number="2">end</beam>
+      </note>
+      <note default-x="105">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <accidental>flat</accidental>
+        <stem default-y="8">up</stem>
+        <notations>
+          <slur bezier-x="-36" bezier-y="-4" default-x="-4" default-y="-39" number="1" placement="below" type="start" />
+        </notations>
+      </note>
+      <note default-x="175">
+        <rest>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </rest>
+        <duration>30240</duration>
+        <type>half</type>
+        <dot />
+      </note>
+      <note default-x="219">
+        <rest />
+        <duration>7560</duration>
+        <type>eighth</type>
+        <dot />
+      </note>
+      <note default-x="247">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <stem default-y="-4">up</stem>
+        <notations>
+          <slur number="1" type="stop" />
+          <slur bezier-x="-27" bezier-y="-6" default-x="4" default-y="-32" number="2" placement="below" type="start" />
+        </notations>
+      </note>
+    </measure>
+    <!--========================= Measure 4 ==========================-->
+    <measure number="4" width="296">
+      <note default-x="15">
+        <pitch>
+          <step>A</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <stem default-y="8">up</stem>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted tie</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" default-x="47">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem default-y="8">up</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="2" type="stop" />
+        </notations>
+      </note>
+      <note default-x="78">
+        <rest />
+        <duration>5040</duration>
+        <type>eighth</type>
+      </note>
+      <note default-x="101">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>15120</duration>
+        <type>quarter</type>
+        <dot />
+        <stem default-y="-14">up</stem>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="138">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <type>16th</type>
+        <stem default-y="2">up</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam color="#0000FF" number="1">begin</beam>
+        <beam color="#0000FF" number="2">forward hook</beam>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed flags</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="164">
+        <pitch>
+          <step>E</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <type>eighth</type>
+        <dot />
+        <accidental>natural</accidental>
+        <stem default-y="0">up</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam color="#0000FF" number="1">end</beam>
+        <notations>
+          <slur bezier-x="-46" bezier-y="-13" default-x="4" default-y="-47" number="3" placement="below" type="start" />
+        </notations>
+      </note>
+      <note default-x="192">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem default-y="-10">up</stem>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted tie</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" default-x="223">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <type>16th</type>
+        <stem default-y="-10">up</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+      </note>
+      <note default-x="259">
+        <pitch>
+          <step>B</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>15120</duration>
+        <type>quarter</type>
+        <dot />
+        <accidental>natural</accidental>
+        <stem default-y="-50">down</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 5 ==========================-->
+    <measure number="5" width="196">
+      <note default-x="11">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>15120</duration>
+        <type>quarter</type>
+        <dot />
+        <stem default-y="8">up</stem>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted tie</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000" default-x="44">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem default-y="-5">up</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="3" type="stop" />
+        </notations>
+      </note>
+      <note default-x="69">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <tie type="start" />
+        <type>quarter</type>
+        <stem default-y="4">up</stem>
+        <notations>
+          <tied orientation="under" placement="below" type="start" />
+        </notations>
+      </note>
+      <note default-x="98">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <tie type="stop" />
+        <type>16th</type>
+        <stem default-y="5">up</stem>
+        <notations>
+          <tied type="stop" />
+        </notations>
+      </note>
+      <note default-x="135">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <tie type="start" />
+        <type>quarter</type>
+        <accidental>flat</accidental>
+        <stem default-y="-4">up</stem>
+        <notations>
+          <tied orientation="under" placement="below" type="start" />
+        </notations>
+      </note>
+      <note default-x="164">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <tie type="stop" />
+        <type>16th</type>
+        <stem default-y="-5">up</stem>
+        <notations>
+          <tied type="stop" />
+        </notations>
+      </note>
+    </measure>
+  </part>
+</score-partwise>

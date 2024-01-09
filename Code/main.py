@@ -235,6 +235,13 @@ def generate_random_measures(s):
 
 
 
+def find_xml_and_pdf(instrument):
+    file_xml = PATH_PROJECT + "real_part/" + instrument + ".musicxml"
+    file_pdf = PATH_PROJECT + "real_part/" + instrument + ".pdf"
+
+    return file_pdf, file_xml
+
+
 
 
 def generate_file_xml_and_pdf(random):
@@ -248,7 +255,7 @@ def generate_file_xml_and_pdf(random):
     if random :
         generate_random_measures(p0)
     else :
-        generate_measures(p0)
+        generate_custom_measures(p0)
 
     stream1.insert(0, p0)
 
@@ -271,12 +278,12 @@ from pathlib import Path
 
 
 def execute_OMR(file):
-    cmd = 'java -cp "'+PATH_PROJECT+'audiveris/Audiveris-5.3.1/lib/*" Audiveris -batch -output '+PATH_PROJECT+'output_OMR/ -export '+file
-    print(cmd)
+    cmd = 'java -cp "'+PATH_PROJECT+'audiveris/Audiveris-5.3.1/lib/*" Audiveris -batch -output '+PATH_PROJECT+'output_OMR/ -export '+ file
+    print("CMD : " + cmd)
     file_name = Path(file).stem
     os.system(cmd)
     file_path = PATH_PROJECT+'output_OMR/'+file_name+'.mxl'
-    print(file_path)
+    print("Executed omr, result in :" + file_path)
     return file_path
 
 
@@ -308,10 +315,11 @@ sys.path.append('music-score-diff')
 from musicdiff.m21utils import DetailLevel
 import custom_diff
 def compare_origin_and_OMR(sc1,sc2,detail):
+    print("Comparing {} and {}".format(sc1,sc2))
     file_name = Path(sc1).stem
     out_pdf_path1 = PATH_PROJECT + 'output_pdf/' + file_name + '___1_original.pdf'
     out_pdf_path2 = PATH_PROJECT + 'output_pdf/' + file_name + '___2_omr.pdf'
-    numDiffs, diff_list = custom_diff.diff(sc1, sc2, out_pdf_path1, out_pdf_path2, force_parse=False, visualize_diffs =True, detail=detail)
+    numDiffs, diff_list = custom_diff.diff(sc1, sc2, out_pdf_path1, out_pdf_path2, visualize_diffs=True, detail=detail)
     return numDiffs, diff_list
 
 def example_run():
@@ -348,6 +356,20 @@ def real_run():
     for diff in diff_list:
         print(diff)
 
+    #test_errors_visu(file1_xml,file2_xml)
+
+
+def custom_partition_real_run(instrument):
+    file1_pdf, file1_xml = find_xml_and_pdf(instrument)
+    file2_xml = execute_OMR(file1_pdf)
+
+    numDiffs, diff_list = compare_origin_and_OMR(file1_xml, file2_xml, detail=DetailLevel.AllObjects)
+
+    demo(file1_xml, file2_xml)
+
+    for diff in diff_list:
+        print(diff)
+
 def example_generate():
     generate_file_xml_and_pdf(random=True)
 
@@ -367,19 +389,18 @@ def test_compare():
 
     print("-----------------------END DIFFS-----------------------")
 
+from PyPDF2 import PdfWriter, PdfReader
+def test_errors_visu(file1,file2) :
+    #file1 = "/home/jerome/Documents/MASTER/MASTER-OMR/Code/generated/mxl/2023_12_13_16_01_22_TEST.musicxml"
+    #file2 = "/home/jerome/Documents/MASTER/MASTER-OMR/Code/output_pdf/2023_12_13_16_01_22_TEST___2_omr.musicxml"
 
-def test_errors_visu() :
-    """[('accidentdel', [('F4', 'sharp', False)], 4, 0, ['stop', 'partial'], [], 140220965260352, [], [], [], {}, [('F4', 'None', False)], 4, 0, ['stop', 'partial'], [], 140220964493680, [], [], [], {}, 1, (0, 0)),
-    ('extrains', None, "TX:", "off=0.0", "dur=0.0, 1")]
-    """
-    file1 = "/home/jerome/Documents/MASTER/MASTER-OMR/Code/output_pdf/2023_12_06_14_02_05_TEST___1_original.pdf"
-    file2 = "/home/jerome/Documents/MASTER/MASTER-OMR/Code/output_pdf/2023_12_06_14_02_05_TEST___2_omr.musicxml"
-
+    source = converter.parse(file1)
     piece = converter.parse(file2)
     s_score = piece
     p_part = s_score.recurse()
     flag = False
     for el in p_part:
+        print(el)
         try :
             if isinstance(el, stream.Measure)  :
                 #print("---content---" )
@@ -388,14 +409,74 @@ def test_errors_visu() :
                         if isinstance(i, expressions.TextExpression) :
                             flag = True
                 except TypeError :
-                    pass
-                #print("---end content---")
+                    print("---TypeError -")
+
         except AttributeError :
             pass
         if flag :
-            el.show(fmt="musicxml.pdf")
-            print("SHOWING MEASURE {}", el)
+            mes = el.measureNumber
+
+            stream1 = source.parts[0].measure(mes)
+            stream2 = el
+
+            print("STREAM1")
+            stream1.show('text')
+            print("STREAM2")
+            stream2.show('text')
+            print("END --- STREAM")
+
+            out_pdf_path = PATH_PROJECT + 'error/' + Path(file1).stem +str(mes) + '.pdf'
+
+            biggerStream = stream.Score()
+            p1 = stream.Part()
+            p2 = stream.Part()
+            p1.append(stream1)
+            p2.append(stream2)
+            p1.append(bar.Barline('final'))
+
+            biggerStream.append(p1)
+            biggerStream.append(p2)
+
+            biggerStream.write('musicxml.pdf', out_pdf_path, makeNotation=False)
+
             flag = False
+
+            out_pdf_path_cropped = PATH_PROJECT + 'error/' + Path(file1).stem + str(mes) + '_cropped.pdf'
+            reader = PdfReader(out_pdf_path)
+            writer = PdfWriter()
+
+            for page in reader.pages:
+
+                print(page.cropbox.lower_left)
+                print(page.cropbox.lower_right)
+                print(page.cropbox.upper_left)
+                print(page.cropbox.upper_right)
+
+                x1 = 0
+                x2 = 360
+                y1 = 620
+                y2 = 750
+
+                lower_right_new_x_coordinate = x2
+                lower_right_new_y_coordinate = y1
+                lower_left_new_x_coordinate = x1
+                lower_left_new_y_coordinate = y1
+                upper_right_new_x_coordinate = x2
+                upper_right_new_y_coordinate = y2
+                upper_left_new_x_coordinate = x1
+                upper_left_new_y_coordinate = y2
+
+                page.mediabox.lower_right = (lower_right_new_x_coordinate, lower_right_new_y_coordinate)
+                page.mediabox.lower_left = (lower_left_new_x_coordinate, lower_left_new_y_coordinate)
+                page.mediabox.upper_right = (upper_right_new_x_coordinate, upper_right_new_y_coordinate)
+                page.mediabox.upper_left = (upper_left_new_x_coordinate, upper_left_new_y_coordinate)
+
+                writer.add_page(page)
+
+            with open(out_pdf_path_cropped, 'wb') as fp:
+                writer.write(fp)
+
+
 
 
 
@@ -406,7 +487,18 @@ if __name__ == '__main__':
     #example_generate()
 
 
-    real_run()
+    #real_run()
+    """
+    dir =  [f for f in os.listdir(PATH_PROJECT + "real_part/")]
+    
+    instruments = set([Path(i).stem for i in dir if i != "source"])
+
+    for instrum in instruments :
+        print("running : " + instrum)
+        custom_partition_real_run(instrum)
+    """
+    custom_partition_real_run("SE5")
+
 
     #test_errors_visu()
 
