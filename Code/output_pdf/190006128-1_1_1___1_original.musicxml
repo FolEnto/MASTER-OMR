@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="3.1">
+  <movement-title>Music21 Fragment</movement-title>
+  <identification>
+    <creator type="composer">score1</creator>
+    <encoding>
+      <encoding-date>2024-01-31</encoding-date>
+      <software>music21 v.8.3.0</software>
+    </encoding>
+  </identification>
+  <defaults>
+    <scaling>
+      <millimeters>7</millimeters>
+      <tenths>40</tenths>
+    </scaling>
+  </defaults>
+  <part-list>
+    <score-part id="Pc33304ff9ae7639b9edbfc9bfc23e89d">
+      <part-name />
+    </score-part>
+  </part-list>
+  <!--=========================== Part 1 ===========================-->
+  <part id="Pc33304ff9ae7639b9edbfc9bfc23e89d">
+    <!--========================= Measure 1 ==========================-->
+    <measure number="1">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted Barline</words>
+        </direction-type>
+        <offset>10080</offset>
+      </direction>
+      <note id="note-0000001197506425">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right">
+        <bar-style>regular</bar-style>
+      </barline>
+    </measure>
+    <!--========================= Measure 2 ==========================-->
+    <measure number="2">
+      <note id="note-0000001721350151">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="note-0000001979779120">
+        <pitch>
+          <step>B</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="note-0000001036043222">
+        <pitch>
+          <step>B</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="note-0000000981022278">
+        <pitch>
+          <step>A</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right">
+        <bar-style>regular</bar-style>
+      </barline>
+    </measure>
+    <!--========================= Measure 3 ==========================-->
+    <measure number="3">
+      <note id="note-0000001195290166">
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>15120</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <dot />
+      </note>
+      <note id="note-0000001679785924">
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>5040</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+      </note>
+      <note id="note-0000001342001206">
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="note-0000002141008448">
+        <pitch>
+          <step>A</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <barline location="right">
+        <bar-style>regular</bar-style>
+      </barline>
+    </measure>
+    <!--========================= Measure 4 ==========================-->
+    <measure number="4">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted Barline</words>
+        </direction-type>
+        <offset>40320</offset>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted Barline</words>
+        </direction-type>
+        <offset>40320</offset>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted Barline</words>
+        </direction-type>
+        <offset>40320</offset>
+      </direction>
+      <note id="note-0000001346476440">
+        <pitch>
+          <step>B</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>20160</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+      <note id="note-0000000046854994">
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>20160</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+      <barline location="right">
+        <bar-style>regular</bar-style>
+      </barline>
+    </measure>
+  </part>
+</score-partwise>

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="3.1">
+  <movement-title>000130816-1_2_2.mxl</movement-title>
+  <identification>
+    <creator type="composer">score2</creator>
+    <encoding>
+      <encoding-date>2024-01-31</encoding-date>
+      <software>music21 v.8.3.0</software>
+      <software>Audiveris 5.3.1</software>
+      <software>ProxyMusic 4.0.2</software>
+      <supports attribute="new-system" element="print" type="yes" value="yes" />
+      <supports attribute="new-page" element="print" type="yes" value="yes" />
+    </encoding>
+    <miscellaneous>
+      <miscellaneous-field name="source-file">/home/jerome/Dropbox/PrIMus/000130816-1_2_2.png</miscellaneous-field>
+      <miscellaneous-field name="source-sheet-1">1</miscellaneous-field>
+    </miscellaneous>
+  </identification>
+  <defaults>
+    <scaling>
+      <millimeters>6.096</millimeters>
+      <tenths>40</tenths>
+    </scaling>
+    <page-layout>
+      <page-height>81</page-height>
+      <page-width>863</page-width>
+      <page-margins>
+        <left-margin>80</left-margin>
+        <right-margin>80</right-margin>
+        <top-margin>80</top-margin>
+        <bottom-margin>80</bottom-margin>
+      </page-margins>
+    </page-layout>
+    <lyric-font font-family="Sans Serif" font-size="10" />
+  </defaults>
+  <part-list>
+    <score-part id="P1">
+      <part-name>Voice</part-name>
+      <part-abbreviation>Voice</part-abbreviation>
+      <score-instrument id="I1025619c43da08435a3e762222494553">
+        <instrument-name>Voice Oohs</instrument-name>
+        <instrument-abbreviation>V</instrument-abbreviation>
+      </score-instrument>
+      <midi-instrument id="I1025619c43da08435a3e762222494553">
+        <midi-channel>1</midi-channel>
+        <midi-program>54</midi-program>
+      </midi-instrument>
+    </score-part>
+  </part-list>
+  <!--=========================== Part 1 ===========================-->
+  <part id="P1">
+    <!--========================= Measure 1 ==========================-->
+    <measure number="1" width="264">
+      <print>
+        <system-layout>
+          <system-margins>
+            <left-margin>-61</left-margin>
+            <right-margin>-80</right-margin>
+          </system-margins>
+          <top-system-distance>-54</top-system-distance>
+        </system-layout>
+        <staff-layout />
+        <measure-numbering>system</measure-numbering>
+      </print>
+      <attributes>
+        <divisions>10080</divisions>
+        <staff-details print-object="yes" />
+      </attributes>
+      <barline location="left">
+        <bar-style>regular</bar-style>
+      </barline>
+      <direction placement="above">
+        <direction-type>
+          <words />
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#008000" enclosure="none">inserted TextExpression</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed Barline offset</words>
+        </direction-type>
+      </direction>
+      <note default-x="173">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="210">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>7560</duration>
+        <type>eighth</type>
+        <dot />
+        <stem default-y="-45">down</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <notations>
+          <slur bezier-x="-13" bezier-y="-3" default-x="9" default-y="-37" number="1" placement="below" type="start" />
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="242">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>2520</duration>
+        <type>16th</type>
+        <stem default-y="-50">down</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="1" type="stop" />
+        </notations>
+      </note>
+    </measure>
+    <!--========================= Measure 2 ==========================-->
+    <measure number="2" width="106">
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="12">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem default-y="-55">down</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="37">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem default-y="-55">down</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+      </note>
+      <note default-x="63">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <!--========================= Measure 3 ==========================-->
+    <measure number="3" width="102">
+      <note default-x="11">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="48">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>7560</duration>
+        <type>eighth</type>
+        <dot />
+        <stem default-y="-40">down</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="79">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>2520</duration>
+        <type>16th</type>
+        <stem default-y="-45">down</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+      </note>
+    </measure>
+    <!--========================= Measure 4 ==========================-->
+    <measure number="4" width="106">
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="12">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem default-y="-50">down</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="37">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem default-y="-50">down</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+      </note>
+      <note default-x="63">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <!--========================= Measure 5 ==========================-->
+    <measure number="5" width="92">
+      <note default-x="11">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="48">
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <tie type="start" />
+        <type>quarter</type>
+        <stem default-y="-34">down</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <notations>
+          <tied orientation="over" placement="above" type="start" />
+        </notations>
+      </note>
+    </measure>
+    <!--========================= Measure 6 ==========================-->
+    <measure number="6" width="98">
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#008000" enclosure="none">inserted expression</words>
+        </direction-type>
+      </direction>
+      <note color="#008000" default-x="18">
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>15120</duration>
+        <tie type="stop" />
+        <type>quarter</type>
+        <dot />
+        <stem default-y="-34">down</stem>
+        <notehead color="#008000" parentheses="no">normal</notehead>
+        <notations>
+          <fermata type="upright" />
+          <tied type="stop" />
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="68">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem default-y="-50">down</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+      </note>
+    </measure>
+    <!--========================= Measure 7 ==========================-->
+    <measure number="7" width="76">
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" default-x="14">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>5040</duration>
+        <tie type="start" />
+        <type>eighth</type>
+        <stem default-y="-45">down</stem>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <notations>
+          <tied orientation="under" placement="below" type="start" />
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#008000" enclosure="none">inserted tie</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#008000" enclosure="none">inserted articulation</words>
+        </direction-type>
+      </direction>
+      <note color="#008000" default-x="42">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>5040</duration>
+        <tie type="stop" />
+        <type>eighth</type>
+        <stem default-y="-45">down</stem>
+        <notehead color="#008000" parentheses="no">normal</notehead>
+        <notations>
+          <tied type="stop" />
+          <articulations>
+            <staccato default-y="8" placement="above" />
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+  </part>
+</score-partwise>

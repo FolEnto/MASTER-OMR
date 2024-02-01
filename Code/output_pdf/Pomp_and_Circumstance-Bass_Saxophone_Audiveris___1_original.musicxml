@@ -1,0 +1,2788 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="3.1">
+  <work>
+    <work-title>Traditional Concer Band Score</work-title>
+  </work>
+  <movement-title>Pomp_and_Circumstance-Bass_Saxophone.musicxml</movement-title>
+  <identification>
+    <creator type="composer">score1          J.L.</creator>
+    <encoding>
+      <encoding-date>2024-01-29</encoding-date>
+      <software>music21 v.8.3.0</software>
+      <software>MuseScore 4.0.2</software>
+    </encoding>
+  </identification>
+  <defaults>
+    <scaling>
+      <millimeters>7</millimeters>
+      <tenths>40</tenths>
+    </scaling>
+  </defaults>
+  <part-list>
+    <score-part id="P1">
+      <part-name>Bass Saxophone</part-name>
+      <part-abbreviation>B. Sax.</part-abbreviation>
+      <score-instrument id="I623dcac85e586f442ee240c82f1279b7">
+        <instrument-name>Bass Saxophone</instrument-name>
+        <instrument-abbreviation>Bar Sax</instrument-abbreviation>
+      </score-instrument>
+      <midi-instrument id="I623dcac85e586f442ee240c82f1279b7">
+        <midi-channel>15</midi-channel>
+        <midi-program>68</midi-program>
+      </midi-instrument>
+    </score-part>
+  </part-list>
+  <!--=========================== Part 1 ===========================-->
+  <part id="P1">
+    <!--========================= Measure 1 ==========================-->
+    <measure number="1">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>1</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+        <transpose>
+          <diatonic>-5</diatonic>
+          <chromatic>-9</chromatic>
+          <octave-change>-1</octave-change>
+        </transpose>
+        <measure-style>
+          <multiple-rest use-symbols="no">3</multiple-rest>
+        </measure-style>
+      </attributes>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <metronome parentheses="no">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>100</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="100" />
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>40320</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 2 ==========================-->
+    <measure number="2">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>40320</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 3 ==========================-->
+    <measure number="3">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>40320</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 4 ==========================-->
+    <measure number="4">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted Dynamic</words>
+        </direction-type>
+      </direction>
+      <direction placement="below">
+        <direction-type>
+          <dynamics default-x="-36" default-y="-80">
+            <ff />
+          </dynamics>
+        </direction-type>
+        <sound dynamics="107" />
+      </direction>
+      <note>
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>down</stem>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+          <tuplet bracket="no" number="1" type="start">
+            <tuplet-actual>
+              <tuplet-number>3</tuplet-number>
+              <tuplet-type>eighth</tuplet-type>
+            </tuplet-actual>
+            <tuplet-normal>
+              <tuplet-number>2</tuplet-number>
+              <tuplet-type>eighth</tuplet-type>
+            </tuplet-normal>
+          </tuplet>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>down</stem>
+        <beam number="1">continue</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>0</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <accidental>natural</accidental>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>down</stem>
+        <beam number="1">end</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+          <tuplet number="1" type="stop" />
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">decreased flags</words>
+        </direction-type>
+        <offset>0</offset>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>down</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <beam color="#FF0000" number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+          <tuplet bracket="no" number="1" type="start">
+            <tuplet-actual>
+              <tuplet-number>3</tuplet-number>
+              <tuplet-type>eighth</tuplet-type>
+            </tuplet-actual>
+            <tuplet-normal>
+              <tuplet-number>2</tuplet-number>
+              <tuplet-type>eighth</tuplet-type>
+            </tuplet-normal>
+          </tuplet>
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">decreased flags</words>
+        </direction-type>
+        <offset>0</offset>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <accidental>flat</accidental>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>down</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <beam color="#FF0000" number="1">continue</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">decreased flags</words>
+        </direction-type>
+        <offset>0</offset>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>down</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <beam color="#FF0000" number="1">end</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+          <tuplet number="1" type="stop" />
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted Note</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>D</step>
+          <alter>-1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <accidental>flat</accidental>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>down</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+          <tuplet bracket="no" number="1" type="start">
+            <tuplet-actual>
+              <tuplet-number>3</tuplet-number>
+              <tuplet-type>eighth</tuplet-type>
+            </tuplet-actual>
+            <tuplet-normal>
+              <tuplet-number>2</tuplet-number>
+              <tuplet-type>eighth</tuplet-type>
+            </tuplet-normal>
+          </tuplet>
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted Note</words>
+        </direction-type>
+        <offset>0</offset>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>down</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted Note</words>
+        </direction-type>
+        <offset>0</offset>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>down</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <beam number="1">end</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+          <tuplet number="1" type="stop" />
+        </notations>
+      </note>
+    </measure>
+    <!--========================= Measure 5 ==========================-->
+    <measure number="5">
+      <note>
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>down</stem>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+          <tuplet bracket="no" number="1" type="start">
+            <tuplet-actual>
+              <tuplet-number>3</tuplet-number>
+              <tuplet-type>eighth</tuplet-type>
+            </tuplet-actual>
+            <tuplet-normal>
+              <tuplet-number>2</tuplet-number>
+              <tuplet-type>eighth</tuplet-type>
+            </tuplet-normal>
+          </tuplet>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <alter>-1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <accidental>flat</accidental>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>down</stem>
+        <beam number="1">continue</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>down</stem>
+        <beam number="1">end</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+          <tuplet number="1" type="stop" />
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">decreased flags</words>
+        </direction-type>
+        <offset>0</offset>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>up</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <beam color="#FF0000" number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+          <tuplet bracket="no" number="1" type="start">
+            <tuplet-actual>
+              <tuplet-number>3</tuplet-number>
+              <tuplet-type>eighth</tuplet-type>
+            </tuplet-actual>
+            <tuplet-normal>
+              <tuplet-number>2</tuplet-number>
+              <tuplet-type>eighth</tuplet-type>
+            </tuplet-normal>
+          </tuplet>
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">decreased flags</words>
+        </direction-type>
+        <offset>0</offset>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <accidental>flat</accidental>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>up</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <beam color="#FF0000" number="1">continue</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">decreased flags</words>
+        </direction-type>
+        <offset>0</offset>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>up</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <beam color="#FF0000" number="1">end</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+          <tuplet number="1" type="stop" />
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted Note</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <accidental>flat</accidental>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>up</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+          <tuplet bracket="no" number="1" type="start">
+            <tuplet-actual>
+              <tuplet-number>3</tuplet-number>
+              <tuplet-type>eighth</tuplet-type>
+            </tuplet-actual>
+            <tuplet-normal>
+              <tuplet-number>2</tuplet-number>
+              <tuplet-type>eighth</tuplet-type>
+            </tuplet-normal>
+          </tuplet>
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted Note</words>
+        </direction-type>
+        <offset>0</offset>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>up</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted Note</words>
+        </direction-type>
+        <offset>0</offset>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>up</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <beam number="1">end</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+          <tuplet number="1" type="stop" />
+        </notations>
+      </note>
+    </measure>
+    <!--========================= Measure 6 ==========================-->
+    <measure number="6">
+      <direction>
+        <direction-type>
+          <words>RIT</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted MetronomeMark</words>
+        </direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <metronome parentheses="no">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>80</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="80" />
+      </direction>
+      <note>
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>up</stem>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+          <tuplet bracket="no" number="1" type="start">
+            <tuplet-actual>
+              <tuplet-number>3</tuplet-number>
+              <tuplet-type>eighth</tuplet-type>
+            </tuplet-actual>
+            <tuplet-normal>
+              <tuplet-number>2</tuplet-number>
+              <tuplet-type>eighth</tuplet-type>
+            </tuplet-normal>
+          </tuplet>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>up</stem>
+        <beam number="1">continue</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>up</stem>
+        <beam number="1">end</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+          <tuplet number="1" type="stop" />
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>up</stem>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+          <tuplet bracket="no" number="1" type="start">
+            <tuplet-actual>
+              <tuplet-number>3</tuplet-number>
+              <tuplet-type>eighth</tuplet-type>
+            </tuplet-actual>
+            <tuplet-normal>
+              <tuplet-number>2</tuplet-number>
+              <tuplet-type>eighth</tuplet-type>
+            </tuplet-normal>
+          </tuplet>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>up</stem>
+        <beam number="1">continue</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>3360</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>eighth</type>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
+        <stem>up</stem>
+        <beam number="1">end</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+          <tuplet number="1" type="stop" />
+        </notations>
+      </note>
+    </measure>
+    <!--========================= Measure 7 ==========================-->
+    <measure number="7">
+      <note>
+        <rest />
+        <duration>20160</duration>
+        <type>half</type>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted articulation</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>20160</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#FF0000" parentheses="no">normal</notehead>
+        <notations>
+          <fermata type="upright" />
+          <articulations>
+            <accent />
+            <caesura />
+          </articulations>
+        </notations>
+      </note>
+      <barline location="right">
+        <bar-style>light-light</bar-style>
+      </barline>
+    </measure>
+    <!--========================= Measure 8 ==========================-->
+    <measure number="8">
+      <attributes>
+        <time>
+          <beats>2</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <measure-style>
+          <multiple-rest use-symbols="no">40</multiple-rest>
+        </measure-style>
+      </attributes>
+      <direction>
+        <direction-type>
+          <rehearsal enclosure="none" font-size="14" font-weight="bold" halign="center" valign="middle">A</rehearsal>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <metronome parentheses="no">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>88</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="88" />
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 9 ==========================-->
+    <measure number="9">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 10 =========================-->
+    <measure number="10">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 11 =========================-->
+    <measure number="11">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 12 =========================-->
+    <measure number="12">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 13 =========================-->
+    <measure number="13">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 14 =========================-->
+    <measure number="14">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 15 =========================-->
+    <measure number="15">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 16 =========================-->
+    <measure number="16">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 17 =========================-->
+    <measure number="17">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 18 =========================-->
+    <measure number="18">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 19 =========================-->
+    <measure number="19">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 20 =========================-->
+    <measure number="20">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 21 =========================-->
+    <measure number="21">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 22 =========================-->
+    <measure number="22">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 23 =========================-->
+    <measure number="23">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 24 =========================-->
+    <measure number="24">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 25 =========================-->
+    <measure number="25">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 26 =========================-->
+    <measure number="26">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 27 =========================-->
+    <measure number="27">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 28 =========================-->
+    <measure number="28">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 29 =========================-->
+    <measure number="29">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 30 =========================-->
+    <measure number="30">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 31 =========================-->
+    <measure number="31">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 32 =========================-->
+    <measure number="32">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 33 =========================-->
+    <measure number="33">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 34 =========================-->
+    <measure number="34">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 35 =========================-->
+    <measure number="35">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 36 =========================-->
+    <measure number="36">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 37 =========================-->
+    <measure number="37">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 38 =========================-->
+    <measure number="38">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 39 =========================-->
+    <measure number="39">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 40 =========================-->
+    <measure number="40">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 41 =========================-->
+    <measure number="41">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 42 =========================-->
+    <measure number="42">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 43 =========================-->
+    <measure number="43">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 44 =========================-->
+    <measure number="44">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 45 =========================-->
+    <measure number="45">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 46 =========================-->
+    <measure number="46">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+    </measure>
+    <!--========================= Measure 47 =========================-->
+    <measure number="47">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted measure</words>
+        </direction-type>
+      </direction>
+      <note color="#FF0000">
+        <rest measure="yes" />
+        <duration>20160</duration>
+      </note>
+      <barline location="right">
+        <bar-style>light-light</bar-style>
+      </barline>
+    </measure>
+    <!--========================= Measure 48 =========================-->
+    <measure number="48">
+      <attributes>
+        <key>
+          <fifths>0</fifths>
+        </key>
+      </attributes>
+      <barline location="left">
+        <repeat direction="forward" />
+      </barline>
+      <direction placement="above">
+        <direction-type>
+          <rehearsal enclosure="none" font-size="14" font-weight="bold" halign="center" valign="middle">B</rehearsal>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted KeySignature</words>
+        </direction-type>
+      </direction>
+      <direction placement="below">
+        <direction-type>
+          <dynamics default-x="-36" default-y="-80">
+            <f />
+          </dynamics>
+        </direction-type>
+        <sound dynamics="88" />
+      </direction>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <chord />
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 49 =========================-->
+    <measure number="49">
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 50 =========================-->
+    <measure number="50">
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 51 =========================-->
+    <measure number="51">
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 52 =========================-->
+    <measure number="52">
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 53 =========================-->
+    <measure number="53">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 54 =========================-->
+    <measure number="54">
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <accidental>sharp</accidental>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 55 =========================-->
+    <measure number="55">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 56 =========================-->
+    <measure number="56">
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 57 =========================-->
+    <measure number="57">
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 58 =========================-->
+    <measure number="58">
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 59 =========================-->
+    <measure number="59">
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 60 =========================-->
+    <measure number="60">
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 61 =========================-->
+    <measure number="61">
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 62 =========================-->
+    <measure number="62">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 63 =========================-->
+    <measure number="63">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 64 =========================-->
+    <measure number="64">
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 65 =========================-->
+    <measure number="65">
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 66 =========================-->
+    <measure number="66">
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 67 =========================-->
+    <measure number="67">
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 68 =========================-->
+    <measure number="68">
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 69 =========================-->
+    <measure number="69">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 70 =========================-->
+    <measure number="70">
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <accidental>sharp</accidental>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 71 =========================-->
+    <measure number="71">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 72 =========================-->
+    <measure number="72">
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 73 =========================-->
+    <measure number="73">
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 74 =========================-->
+    <measure number="74">
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 75 =========================-->
+    <measure number="75">
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 76 =========================-->
+    <measure number="76">
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 77 =========================-->
+    <measure number="77">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 78 =========================-->
+    <measure number="78">
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <tenuto />
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <!--========================= Measure 79 =========================-->
+    <measure number="79">
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <tenuto />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <tenuto />
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <!--========================= Measure 80 =========================-->
+    <measure number="80">
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 81 =========================-->
+    <measure number="81">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 82 =========================-->
+    <measure number="82">
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 83 =========================-->
+    <measure number="83">
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 84 =========================-->
+    <measure number="84">
+      <barline location="left">
+        <bar-style>regular</bar-style>
+        <ending number="1" type="start" />
+      </barline>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted RepeatBracket</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted Barline</words>
+        </direction-type>
+      </direction>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 85 =========================-->
+    <measure number="85">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 86 =========================-->
+    <measure number="86">
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <tenuto />
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <!--========================= Measure 87 =========================-->
+    <measure number="87">
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <tenuto />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>down</stem>
+        <notations>
+          <articulations>
+            <tenuto />
+          </articulations>
+        </notations>
+      </note>
+      <barline location="right">
+        <ending number="1" type="stop" />
+        <repeat direction="backward" />
+      </barline>
+    </measure>
+    <!--========================= Measure 88 =========================-->
+    <measure number="88">
+      <barline location="left">
+        <bar-style>regular</bar-style>
+        <ending number="2" type="start" />
+      </barline>
+      <direction>
+        <direction-type>
+          <words color="#008000" enclosure="none">inserted articulation</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted Barline</words>
+        </direction-type>
+      </direction>
+      <note color="#008000">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#008000" parentheses="no">normal</notehead>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 89 =========================-->
+    <measure number="89">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 90 =========================-->
+    <measure number="90">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed Diminuendo duration</words>
+        </direction-type>
+      </direction>
+      <direction placement="below">
+        <direction-type>
+          <wedge number="1" spread="15" type="diminuendo" />
+        </direction-type>
+      </direction>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+      </note>
+    </measure>
+    <!--========================= Measure 91 =========================-->
+    <measure number="91">
+      <direction>
+        <direction-type>
+          <words>Back to A</words>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted TextExpression</words>
+        </direction-type>
+      </direction>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <tenuto />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <tenuto />
+          </articulations>
+        </notations>
+      </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge number="1" spread="0" type="stop" />
+        </direction-type>
+      </direction>
+      <barline location="right">
+        <bar-style>light-light</bar-style>
+        <ending number="2" type="stop" />
+      </barline>
+    </measure>
+    <!--========================= Measure 92 =========================-->
+    <measure number="92">
+      <direction placement="above">
+        <direction-type>
+          <rehearsal enclosure="none" font-size="14" font-weight="bold" halign="center" valign="middle">FINAL</rehearsal>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed Crescendo duration</words>
+        </direction-type>
+      </direction>
+      <direction placement="below">
+        <direction-type>
+          <wedge number="2" spread="0" type="crescendo" />
+        </direction-type>
+      </direction>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>20160</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>half</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <!--========================= Measure 93 =========================-->
+    <measure number="93">
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>20160</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>half</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <!--========================= Measure 94 =========================-->
+    <measure number="94">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>20160</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>half</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <!--========================= Measure 95 =========================-->
+    <measure number="95">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <direction placement="below">
+        <direction-type>
+          <wedge number="2" spread="15" type="stop" />
+        </direction-type>
+      </direction>
+    </measure>
+    <!--========================= Measure 96 =========================-->
+    <measure number="96">
+      <direction>
+        <direction-type>
+          <words>RIT</words>
+        </direction-type>
+      </direction>
+      <direction placement="below">
+        <direction-type>
+          <dynamics default-x="-36" default-y="-80">
+            <ff />
+          </dynamics>
+        </direction-type>
+        <sound dynamics="107" />
+      </direction>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>20160</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>half</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <!--========================= Measure 97 =========================-->
+    <measure number="97">
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <!--========================= Measure 98 =========================-->
+    <measure number="98">
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>down</stem>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <!--========================= Measure 99 =========================-->
+    <measure number="99">
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>20160</duration>
+        <instrument id="I623dcac85e586f442ee240c82f1279b7" />
+        <type>half</type>
+        <stem>up</stem>
+        <notations>
+          <fermata type="upright" />
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+      </barline>
+    </measure>
+  </part>
+</score-partwise>

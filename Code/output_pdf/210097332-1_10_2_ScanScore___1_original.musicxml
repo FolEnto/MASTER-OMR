@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="3.1">
+  <movement-title>Music21 Fragment</movement-title>
+  <identification>
+    <creator type="composer">score1</creator>
+    <encoding>
+      <encoding-date>2024-01-31</encoding-date>
+      <software>music21 v.8.3.0</software>
+    </encoding>
+  </identification>
+  <defaults>
+    <scaling>
+      <millimeters>7</millimeters>
+      <tenths>40</tenths>
+    </scaling>
+  </defaults>
+  <part-list>
+    <score-part id="P763a4021263f9d877e2c33445960a75c">
+      <part-name />
+    </score-part>
+  </part-list>
+  <!--=========================== Part 1 ===========================-->
+  <part id="P763a4021263f9d877e2c33445960a75c">
+    <!--========================= Measure 1 ==========================-->
+    <measure number="1">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>2</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>3</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>C</sign>
+          <line>1</line>
+        </clef>
+      </attributes>
+      <barline location="right">
+        <bar-style>regular</bar-style>
+      </barline>
+    </measure>
+    <!--========================= Measure 2 ==========================-->
+    <measure number="2">
+      <note id="rest-0000002116474121">
+        <rest />
+        <duration>5040</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" id="note-0000000661422739">
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" id="note-0000001156617501">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>5040</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" id="note-0000000248366663">
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" id="note-0000001737778920">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>5040</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" id="note-0000001072709240">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>5040</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+      </note>
+      <barline location="right">
+        <bar-style>regular</bar-style>
+      </barline>
+    </measure>
+    <!--========================= Measure 3 ==========================-->
+    <measure number="3">
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" id="note-0000001556008173">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>5040</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam number="1">begin</beam>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" id="note-0000000878555246">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" id="note-0000001927946397">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>2520</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" id="note-0000001761828443">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>5040</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam number="1">begin</beam>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" id="note-0000001030659955">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>5040</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" id="note-0000000698766983">
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>5040</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" id="note-0000001736101485">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>5040</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <barline location="right">
+        <bar-style>regular</bar-style>
+      </barline>
+    </measure>
+    <!--========================= Measure 4 ==========================-->
+    <measure number="4">
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted Barline</words>
+        </direction-type>
+        <offset>30240</offset>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted Barline</words>
+        </direction-type>
+        <offset>30240</offset>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#FF0000" enclosure="none">deleted Barline</words>
+        </direction-type>
+        <offset>30240</offset>
+      </direction>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" id="note-0000001890834527">
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>20160</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+      </note>
+      <direction>
+        <direction-type>
+          <words color="#0000FF" enclosure="none">changed pitch</words>
+        </direction-type>
+      </direction>
+      <note color="#0000FF" id="note-0000000792886983">
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <notehead color="#0000FF" parentheses="no">normal</notehead>
+      </note>
+      <barline location="right">
+        <bar-style>regular</bar-style>
+      </barline>
+    </measure>
+  </part>
+</score-partwise>

@@ -26,6 +26,32 @@ from musicdiff.annotation import AnnScore
 from musicdiff.comparison import Comparison
 from musicdiff.visualization import Visualization
 
+from apply_trueskill import evaluate_teams, evaluate_teams_weights
+
+
+from decimal import *
+
+def measure_accuracy(number_of_symbols,diff_list, weights):
+    total = 0
+    for diff in diff_list:
+        try :
+            weight = weights[diff[0]]
+            total += weight
+            print("c {} -- weight {}".format(diff, weight))
+            logging.info("c {} -- weight {}".format(diff, weight))
+        except KeyError :
+            total += 1
+            print("{} -- weight {}".format(diff, 1))
+            logging.info("{} -- weight {}".format(diff, 1))
+
+    if number_of_symbols != 0 :
+        value = 1 - total / number_of_symbols
+        return format(value*100, '.2f')
+    else :
+        return "No accuracy computed, number of symbols is 0"
+
+
+
 def _getInputExtensionsList() -> [str]:
     c = m21.converter.Converter()
     inList = c.subconvertersList('input')
@@ -42,7 +68,12 @@ def _printSupportedInputFormats():
     for subc in inList:
         if subc.registerInputExtensions:
             print('\tformats   : ' + ', '.join(subc.registerFormats)
-                    + '\textensions: ' + ', '.join(subc.registerInputExtensions), file=sys.stderr)
+                  + '\textensions: ' + ', '.join(subc.registerInputExtensions), file=sys.stderr)
+
+
+
+import logging
+import csv
 
 def diff(score1: Union[str, Path, m21.stream.Score],
          score2: Union[str, Path, m21.stream.Score],
@@ -50,8 +81,8 @@ def diff(score1: Union[str, Path, m21.stream.Score],
          out_path2:  Union[str, Path] = None,
          force_parse: bool = True,
          visualize_diffs: bool = True,
-         detail: DetailLevel = DetailLevel.Default
-        ) -> int:
+         detail: DetailLevel = DetailLevel.Default,
+         weights = {}) -> int:
     '''
     Compare two musical scores and optionally save/display the differences as two marked-up
     rendered PDFs.
@@ -146,9 +177,18 @@ def diff(score1: Union[str, Path, m21.stream.Score],
     if badArg1 or badArg2:
         return None
 
+    log_filename = 'test.log'
+
+
+
+    logging.basicConfig(filename=log_filename,level=logging.DEBUG)
     # scan each score, producing an annotated wrapper
     annotated_score1: AnnScore = AnnScore(score1, detail)
+    print("Number of symbols in Score 1 : {}".format(annotated_score1.notation_size()))
+    logging.info("Number of symbols in Score 1 : {}".format(annotated_score1.notation_size()))
     annotated_score2: AnnScore = AnnScore(score2, detail)
+    print("Number of symbols in Score 2 : {}".format(annotated_score2.notation_size()))
+    logging.info("Number of symbols in Score 2 : {}".format(annotated_score2.notation_size()))
 
     diff_list: List = None
     _cost: int = None
@@ -164,10 +204,27 @@ def diff(score1: Union[str, Path, m21.stream.Score],
         Visualization.CHANGED_COLOR = 'blue'
 
         # color changed/deleted/inserted notes, add descriptive text for each change, etc
+        # This is commented because this hase caused problems with the Audiveris recognised file
         Visualization.mark_diffs(score1, score2, diff_list)
 
         # ask music21 to display the scores as PDFs.  Composer's name will be prepended with
         # 'score1 ' and 'score2 ', respectively, so you can see which is which.
         Visualization.show_diffs(score1, score2, out_path1, out_path2)
+    acc = measure_accuracy(annotated_score1.notation_size(),diff_list, weights)
+    
+    with open('result.csv', 'a') as file:
+        writer = csv.writer(file)
+        writer.writerow([fileName1, fileName2,acc,
+        format((1-numDiffs/annotated_score1.notation_size())*100, '.2f'),
+        numDiffs,annotated_score1.notation_size()])
+
+    info_String = "Custom accuracy : {}% ---- \"Standard accuracy\" : {}% - {} errors".format(
+        acc,
+        format((1-numDiffs/annotated_score1.notation_size())*100, '.2f'),
+        numDiffs
+    )
+
+    print(info_String)
+    logging.info(info_String)
 
     return numDiffs, diff_list

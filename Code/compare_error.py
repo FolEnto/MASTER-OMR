@@ -1,6 +1,6 @@
 from musicdiff.m21utils import DetailLevel
 from pathlib import Path
-from main import PATH_PROJECT
+from generate_and_compare import PATH_PROJECT
 import custom_diff
 PATH_PROJECT_errors = PATH_PROJECT + "error/"
 
@@ -12,12 +12,6 @@ def compare_origin_and_OMR(sc1,sc2,detail):
     out_pdf_path2 = PATH_PROJECT_errors + file_name1 + "_" + file_name2 + '_error.pdf'
     numDiffs, diff_list = custom_diff.diff(sc1, sc2, out_pdf_path1, out_pdf_path2, visualize_diffs=True, detail=detail)
     return numDiffs, diff_list
-
-
-
-
-
-
 
 
 
